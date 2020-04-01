@@ -57,7 +57,7 @@ footer {
 
 .header-dx li {
   list-style-type: none;
-  display:inline;
+  display:inline-block;
   text-decoration: none;
   color:white;
 }
@@ -84,8 +84,8 @@ a {
 
 /* assegno a .header-inter-1 un display:none per non visualizzarlo in pagina */
 .header-inter-1 {
-  height: 100px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   background-color: red;
   position: absolute;
   display: none;
@@ -93,7 +93,7 @@ a {
 
 .header-inter-1 li a {
   list-style-type: none;
-  display:inline;
+  display:block;
   text-decoration: none;
   color:white;
 }
