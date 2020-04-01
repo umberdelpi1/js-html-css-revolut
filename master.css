@@ -12,6 +12,12 @@ nav {
   display: flex;
   position: fixed;
 }
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
 main {
   background-color: green;
   height: 400px;
@@ -37,7 +43,33 @@ footer {
   /* debug */
   background-color: red;
 }
+
+.header-sx-2 li {
+  color: white;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  list-style-type: none;
+  display:inline;
+  text-decoration: none;
+}
+
 /* -----------------------lato dx 3° */
+
+.header-dx li {
+  list-style-type: none;
+  display:inline;
+  text-decoration: none;
+  color:white;
+}
+
+/* li {
+  list-style-type: none;
+  display:inline;
+}
+a {
+  text-decoration: none;
+} */
+
 .header-dx {
   height: 100px;
   width: 60%;
@@ -45,14 +77,6 @@ footer {
   background-color: purple;
 }
 
-
-li {
-  list-style-type: none;
-  display:inline;
-}
-a {
-  text-decoration: none;
-}
 /* creo una classe su <a> del Menu1 con una position:relative */
 .block-menu-1 {
   position: relative;
@@ -60,12 +84,20 @@ a {
 
 /* assegno a .header-inter-1 un display:none per non visualizzarlo in pagina */
 .header-inter-1 {
-  height: 200px;
+  height: 100px;
   width: 100px;
   background-color: red;
   position: absolute;
   display: none;
 }
+
+.header-inter-1 li a {
+  list-style-type: none;
+  display:inline;
+  text-decoration: none;
+  color:white;
+}
+
 /* attivo l':hover come debug per vedere in pagina cosa succede */
 /* inserisco i li della classe .header-dx in :hover con classe .header-inter-1 in display:block */
 .header-dx li:hover .header-inter-1 {
