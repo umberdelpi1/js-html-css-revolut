@@ -1,6 +1,5 @@
 * {
-  top: 0;
-  left: 0;
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Basier Circle", sans-serif;
@@ -34,10 +33,29 @@ header {
   background-color: purple;
 }
 
+
 li {
   list-style-type: none;
   display:inline;
 }
 a {
   text-decoration: none;
+}
+/* creo una classe su <a> del Menu1 con una position:relative */
+.block-menu-1 {
+  position: relative;
+}
+
+/* assegno a .header-inter-1 un display:none per non visualizzarlo in pagina */
+.header-inter-1 {
+  height: 200px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  display: none;
+}
+/* attivo l':hover come debug per vedere in pagina cosa succede */
+/* inserisco i li della classe .header-dx in :hover con classe .header-inter-1 in display:block */
+.header-dx li:hover .header-inter-1 {
+  display:block;
 }
