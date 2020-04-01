@@ -85,7 +85,7 @@ a {
 /* assegno a .header-inter-1 un display:none per non visualizzarlo in pagina */
 .header-inter-1 {
   height: 100px;
-  width: 100px;
+  width: 300px;
   background-color: red;
   position: absolute;
   display: none;
