@@ -1,0 +1,43 @@
+* {
+  top: 0;
+  left: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Basier Circle", sans-serif;
+}
+header {
+  width: 100%;
+  height: 150px;
+  border: solid black 1px;
+  display: flex;
+  /* debug */
+}
+/* -----------------------lato sx 1° */
+.header-sx {
+  height: 100px;
+  width: 20%;
+  /* debug */
+  background-color: lightblue;
+}
+/* -----------------------lato sx 2° */
+.header-sx-2 {
+  height: 100px;
+  width: 20%;
+  /* debug */
+  background-color: red;
+}
+/* -----------------------lato dx 3° */
+.header-dx {
+  height: 100px;
+  width: 60%;
+  /* debug */
+  background-color: purple;
+}
+
+li {
+  list-style-type: none;
+  display:inline;
+}
+a {
+  text-decoration: none;
+}
